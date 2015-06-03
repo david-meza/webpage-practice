@@ -80,3 +80,31 @@ a:hover {
   width: 300px;
   margin: auto;
 }
+html, body {
+  height: 100%;
+}
+.wrapper {
+  min-height:100%;
+  margin-bottom: -45px;
+}
+.footer {
+  height: 48px;
+  background-color: #f0f0f0;
+  color: #666;
+  padding: 10px;
+  font-size: 13px;
+  margin-right: -10px;
+  margin-left: -10px;
+}
+.footer-left {
+  float: left;
+  margin-left: 20px; 
+}
+.footer div div {
+  display: inline-block;
+  margin-right: 25px;
+}
+.footer-right {
+  float: right;
+  margin-right: 10px;
+}
