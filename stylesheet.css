@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.navbar {
+  height: 60px;
+}
+.navbar-elements {
+  float: right;
+  font-size: 14px;
+  color: #444;
+  line-height: 30px;
+}
+.navbar-elements button{
+  display: inline-block;
+}
+.gmail{
+
+}
+.images{
+
+}
+.apps {
+}
+.sign-in {
+}
+.navbar img{
+  height: 20px;
+  width: 20px;
+}
+.logo {
+  width:250px;
+  height: 300px;
+}
+.logo img{
+  height:95px;
+  width: 240px;
+  vertical-align: center;
+}
+.search-container img{
+  height:20px;
+  width: 20px;
+}
