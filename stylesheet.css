@@ -38,7 +38,45 @@ body {
   margin-left: auto;
   margin-right:auto;
 }
+.search-container{
+  height: 40px;
+}
+.search-bar {
+  width: 500px;
+  margin: 20px;
+  padding: 5px 25px 5px 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: url(https://cdn1.iconfinder.com/data/icons/phone-logs/24/Phone_logs_Line-12-512.png) no-repeat right center;
+  background-size: 20px 20px;
+}
 .search-container img{
   height:20px;
   width: 20px;
+}
+.buttons {
+  color:#444;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5%;
+  padding: 7px;
+  font-weight: bold;
+  margin-left: 10px
+}
+.search-submit {
+  height: 45px;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.extra {
+  font-size: 13px;
+  text-align: center;
+  width: 300px;
+  margin: auto;
 }
