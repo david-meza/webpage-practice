@@ -85,16 +85,15 @@ html, body {
 }
 .wrapper {
   min-height:100%;
-  margin-bottom: -45px;
+  margin-bottom: -20px;
 }
 .footer {
-  height: 48px;
+  height: 20px;
   background-color: #f0f0f0;
   color: #666;
   padding: 10px;
   font-size: 13px;
-  margin-right: -10px;
-  margin-left: -10px;
+  margin: 0px -10px;
 }
 .footer-left {
   float: left;
