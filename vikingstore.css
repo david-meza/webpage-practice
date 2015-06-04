@@ -2,7 +2,7 @@ body {
   font-family: Helvetica, sans-serif;
 }
 h1 {
-  font-size: 60px;
+  font-size: 80px;
   color: #333;
   text-align: center;
 }
@@ -29,33 +29,29 @@ h5 {
 }
 .navbar {
   height: 50px;
-  margin: 10px;
+  padding: 12px;
 }
 .logo {
   font-size: 24px;
   color: #555;
-  padding: 10px 0px 10px 70px;
+  padding: 11px 0px 9px 100px;
   display: inline-block;
 }
 .navbar-elements {
   float: right;
-  width: 200px;
+  width: 300px;
   height: 30px;
   padding: 5px;
   text-align: center;
-  line-height: 5px;
 }
-.user-image {
-  height: 30px;
-  width: 50px;
-  border: 2px solid #f0f0f0;
+.cart-image {
   display: inline-block;
 }
 .cart {
   font-size: 20px;
   color: #555;
   display: inline-block;
-  padding: 3px;
+  padding: 0px 50px 0px 0px;
 }
 .main-heading {
   position: relative;
@@ -158,5 +154,24 @@ button {
   padding: 5px 20px 0px 20px;
 }
 .footer{
-  
+  height: 200px;
+  background-color: #333;
+}
+.contact {
+  width: 100%
+  display: inline-block;
+  margin: 0px 300px 30px 300px;
+}
+.contact h4 {
+  padding: 40px 20px 20px 20px;
+  color: orange;
+}
+.contact img {
+  margin-left: 220px;
+  display: inline-block;
+}
+.contact p {
+  color: white;
+  display: inline-block;
+  padding: 10px;
 }
