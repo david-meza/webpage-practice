@@ -5,6 +5,7 @@ h1 {
   font-size: 80px;
   color: #333;
   text-align: center;
+  text-shadow:3px 3px 4px #fff;
 }
 h2 {
   font-size: 40px;
@@ -40,20 +41,18 @@ a:hover{
 .navbar {
   height: 50px;
   padding: 12px;
-  display: relative;
 }
 .logo {
+  float: left;
   font-size: 24px;
   color: #555;
   padding: 11px 0px 9px 100px;
-  display: inline-block;
 }
 .navbar-elements {
   float: right;
   height: 40px;
   padding: 5px 50px 5px 0px;
   text-align: center;
-  display: inline-block;
 }
 .cart-image {
   display: inline-block;
@@ -75,13 +74,13 @@ a:hover{
   height: 100%;
   background: url(http://s3.amazonaws.com/viking_education/demos/viking_store_app/viking_ship_background_medium.jpg) no-repeat;
   background-size: 100% 100%;
-  opacity: 0.4;
+  opacity: 0.3;
   z-index: -1;
 }
 .main-heading h1{
   padding: 240px;
   font-weight: bold;
-  color: #000;
+  color: #333;
 }
 .heading1 {
   height: 200px;
