@@ -27,6 +27,16 @@ h5 {
   color: #333;
   text-align: center;
 }
+strong{
+  font-weight: bold;
+}
+a {
+  color: royalblue;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
 .navbar {
   height: 50px;
   padding: 12px;
