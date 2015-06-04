@@ -16,6 +16,17 @@ h3 {
   color: #777;
   text-align: center;
 }
+h4 {
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
+h5 {
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+}
 .navbar {
   height: 50px;
   margin: 10px;
@@ -74,11 +85,53 @@ h3 {
   color: white;
 }
 .sub-heading {
-  height: 80px;
+  height: 85px;
 }
 .sub-heading h3 {
+  font-style: italic;
   padding: 30px;
 }
 .store-frame {
   height: 1000px;
+  border: 2px solid #777;
+}
+.product-wrapper {
+  height: 100%;
+  width: 90%;
+  text-align: center;
+  margin: 0px 100px 0px 100px;
+}
+.product {
+  height: 300px;
+  width: 250px;
+  margin: 10px;
+  border: 2px solid #555;
+}
+#title {
+  height: 60px;
+  background-color: #333;
+}
+#pimg {
+  height:180px;
+}
+#pimg img {
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  position: relative;
+  top: -20px;
+}
+#price {
+  float: right;
+  border: 1px solid #aaa;
+  padding: 3px 5px 3px 5px;
+}
+#pfooter {
+  height: 60px;
+  background-color: #333;
+}
+button {
+  margin-top: 15px;
+  background-color: orange;
+  border: 2px solid #999;
 }
