@@ -63,6 +63,7 @@ a:hover{
   display: inline-block;
 }
 .main-heading {
+  clear:both;
   position: relative;
 }
 .main-heading:before {
@@ -162,10 +163,11 @@ button {
 }
 .footer{
   background-color: #333;
+  text-align: center;
 }
 .contact {
   display: inline-block;
-  padding: 0px 35% 30px 40%;
+  padding: 0px 0px 30px 0px;
 }
 .contact h4 {
   padding: 40px 20px 20px 20px;
