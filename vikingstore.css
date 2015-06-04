@@ -40,6 +40,7 @@ a:hover{
 .navbar {
   height: 50px;
   padding: 12px;
+  display: relative;
 }
 .logo {
   font-size: 24px;
