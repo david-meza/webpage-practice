@@ -6,6 +6,16 @@ h1 {
   color: #333;
   text-align: center;
 }
+h2 {
+  font-size: 40px;
+  color: #333;
+  text-align: center;
+}
+h3 {
+  font-size: 26px;
+  color: #777;
+  text-align: center;
+}
 .navbar {
   height: 50px;
   margin: 10px;
@@ -13,7 +23,7 @@ h1 {
 .logo {
   font-size: 24px;
   color: #555;
-  padding: 10px 0px 10px 50px;
+  padding: 10px 0px 10px 70px;
   display: inline-block;
 }
 .navbar-elements {
@@ -37,16 +47,38 @@ h1 {
   padding: 3px;
 }
 .main-heading {
-  height: 500px;
   position: relative;
 }
-.transbg {
+.main-heading:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
   background: url(http://s3.amazonaws.com/viking_education/demos/viking_store_app/viking_ship_background_medium.jpg) no-repeat;
   background-size: 100% 100%;
-  opacity: 0.5;
+  opacity: 0.4;
+  z-index: -1;
 }
 .main-heading h1{
   padding: 240px;
   font-weight: bold;
   color: #000;
+}
+.heading1 {
+  height: 200px;
+  background-color: #333;
+}
+.heading1 h2 {
+  padding: 80px;
+  color: white;
+}
+.sub-heading {
+  height: 80px;
+}
+.sub-heading h3 {
+  padding: 30px;
+}
+.store-frame {
+  height: 1000px;
 }
